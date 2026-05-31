@@ -135,6 +135,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: background-color 250ms linear;
 }
 
 .social-link .icon {
@@ -143,9 +144,9 @@ img {
 }
 
 .social-link:hover {
-  fill: #31d0aa;
+  background-color: #404bbf;
 }
 
 .social-link:focus {
-  fill: #31d0aa;
+  background-color: #404bbf;
 }
