@@ -10,6 +10,8 @@
 .footer .social-media p {
   color: #ffffff;
   letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .footer .logo {
