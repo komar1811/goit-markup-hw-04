@@ -38,8 +38,8 @@ h3 {
 
 h4 {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
@@ -49,6 +49,10 @@ a {
   font-size: 12px;
   text-decoration: underline;
   line-height: 1.5;
+}
+
+.social-links a {
+  line-height: 1;
 }
 
 .logo {
@@ -81,6 +85,9 @@ address {
   margin: 0 auto;
   box-sizing: border-box;
   padding: 0 15px;
+}
+
+.flex-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -133,4 +140,12 @@ img {
 .social-link .icon {
   width: 16px;
   height: 16px;
+}
+
+.social-link:hover {
+  fill: #31d0aa;
+}
+
+.social-link:focus {
+  fill: #31d0aa;
 }
