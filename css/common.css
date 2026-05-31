@@ -143,6 +143,11 @@ img {
   height: 16px;
 }
 
+.footer .social-link .icon {
+  width: 24px;
+  height: 24px;
+}
+
 .social-link:hover {
   background-color: #404bbf;
 }
