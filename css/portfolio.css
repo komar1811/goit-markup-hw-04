@@ -25,6 +25,8 @@
 .portfolio-element {
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms linear;
+
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-card-content {
@@ -70,4 +72,12 @@
   letter-spacing: 0.02em;
   color: #f4f4fd;
   margin: 0;
+}
+
+.portfolio-element:hover,
+.portfolio-element:focus {
+  box-shadow:
+    0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
